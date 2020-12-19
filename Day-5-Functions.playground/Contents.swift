@@ -145,3 +145,47 @@ MyApp will resize them all into thumbnails
 
 
 printHelp()
+func merhaba(_ person: String){
+    print("Hello ,\(person) ")
+}
+merhaba("selam")
+
+
+
+func work(to person: String, hardly: Bool = true) {
+    if hardly == true {
+        print("Person work hard")
+    } else{
+        print("Person not work hard :(")
+    }
+}
+
+work(to: "Mehmet",hardly: false)
+
+// MARK : Variadic Functions
+
+print("Haters", "gonna", "hate")
+
+func square(numbers : Int...) {
+    for number in numbers {
+        print("\(number) squared is \(number * number)")
+    }
+}
+square(numbers: 1,2,3,4,5)
+
+
+enum PasswordError : Error {
+    case obvios
+}
+
+func checkPassword(_ password:String) throws -> Bool {
+    if password == "password" {
+        throw PasswordError.obvios
+    }
+    return true
+}
+
+try checkPassword("password")
+
+
+
