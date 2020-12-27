@@ -4,7 +4,7 @@ import Foundation
 print("hello")
 
 
-class Dog {
+class Dog: SayHello {
     var name : String
     var breed : String
     
@@ -16,12 +16,19 @@ class Dog {
 
 let poppy = Dog(name: "karabaş", breed: "Poodle")
 
-print(poppy.name)
-
 class Poodle: Dog {
     init(name: String){
         super.init(name: name, breed: "Poodle")
     }
 }
 
+
+class SayHello {
+    func makeNoise(){
+        print("hello")
+    }
+}
+    
+
+let kopek = Dog(name: "kopek", breed: "selam")
 
