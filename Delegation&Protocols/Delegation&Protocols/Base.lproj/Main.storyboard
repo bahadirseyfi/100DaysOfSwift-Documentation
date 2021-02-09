@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="31D-Gd-Oez">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Delegation_Protocols" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17.39130434782609" y="80.357142857142847"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="Pff-yf-tD3">
+            <objects>
+                <viewController id="31D-Gd-Oez" customClass="FirstViewController" customModule="Delegation_Protocols" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Uf-8V-CYC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="knI-lW-LZe">
+                                <rect key="frame" x="20" y="410" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LABEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPJ-R6-bDO">
+                                <rect key="frame" x="20" y="372" width="374" height="30"/>
+                                <color key="backgroundColor" red="0.91857266429999995" green="0.42545697090000001" blue="0.48467081789999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIQ-5G-W1C">
+                                <rect key="frame" x="20" y="452" width="374" height="40"/>
+                                <color key="backgroundColor" red="0.95688277479999995" green="0.26276057959999999" blue="0.21178686620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xVE-J2-f0Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="VERİ YOLLA İLERİ">
+                                    <color key="titleColor" red="0.95675891639999999" green="0.95692259069999996" blue="0.95674854519999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="veriGonder:" destination="31D-Gd-Oez" eventType="touchUpInside" id="tAY-Tl-S4H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4Qr-af-59j"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="4Qr-af-59j" firstAttribute="trailing" secondItem="kPJ-R6-bDO" secondAttribute="trailing" constant="20" id="3It-fI-ti5"/>
+                            <constraint firstItem="4Qr-af-59j" firstAttribute="trailing" secondItem="JIQ-5G-W1C" secondAttribute="trailing" constant="20" id="5ny-3d-5Hp"/>
+                            <constraint firstItem="knI-lW-LZe" firstAttribute="top" secondItem="kPJ-R6-bDO" secondAttribute="bottom" constant="8" symbolic="YES" id="KN7-y7-sMo"/>
+                            <constraint firstItem="JIQ-5G-W1C" firstAttribute="top" secondItem="knI-lW-LZe" secondAttribute="bottom" constant="8" symbolic="YES" id="Sjq-Y8-Qdj"/>
+                            <constraint firstItem="knI-lW-LZe" firstAttribute="leading" secondItem="4Qr-af-59j" secondAttribute="leading" constant="20" id="VE6-JJ-Srn"/>
+                            <constraint firstItem="kPJ-R6-bDO" firstAttribute="leading" secondItem="4Qr-af-59j" secondAttribute="leading" constant="20" id="bpe-h3-sv0"/>
+                            <constraint firstItem="JIQ-5G-W1C" firstAttribute="leading" secondItem="4Qr-af-59j" secondAttribute="leading" constant="20" id="fxA-Dh-Yuc"/>
+                            <constraint firstItem="kPJ-R6-bDO" firstAttribute="centerX" secondItem="8Uf-8V-CYC" secondAttribute="centerX" id="kBi-DP-Epl"/>
+                            <constraint firstItem="JIQ-5G-W1C" firstAttribute="top" secondItem="knI-lW-LZe" secondAttribute="bottom" constant="8" symbolic="YES" id="lZ3-7Y-mf5"/>
+                            <constraint firstItem="4Qr-af-59j" firstAttribute="trailing" secondItem="knI-lW-LZe" secondAttribute="trailing" constant="20" id="qxs-fr-oDj"/>
+                            <constraint firstItem="kPJ-R6-bDO" firstAttribute="top" secondItem="4Qr-af-59j" secondAttribute="top" constant="328" id="xRd-Hz-W8H"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstLabel" destination="kPJ-R6-bDO" id="3qC-mu-ppN"/>
+                        <outlet property="textField" destination="knI-lW-LZe" id="qH4-2X-Fat"/>
+                        <segue destination="vSz-PK-vGp" kind="presentation" identifier="toNextVC" modalPresentationStyle="fullScreen" id="ytH-dD-aQn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G7Z-hD-AQH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4.3478260869565224" y="780.80357142857144"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="Hwo-da-pev">
+            <objects>
+                <viewController id="vSz-PK-vGp" customClass="SecondViewController" customModule="Delegation_Protocols" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Mp-KN-WOt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MjA-8i-dGp">
+                                <rect key="frame" x="20" y="375" width="374" height="29"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u1a-qE-C32">
+                                <rect key="frame" x="20" y="431" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VmS-ux-gN8">
+                                <rect key="frame" x="20" y="473" width="374" height="40"/>
+                                <color key="backgroundColor" red="0.02676530555" green="0.62004560230000005" blue="0.64973843099999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="eGH-9l-dcd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="GERİ VERİ YOLLA">
+                                    <color key="titleColor" red="0.95283776519999996" green="0.95300084350000003" blue="0.95282751320000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="veriGeriGonder:" destination="vSz-PK-vGp" eventType="touchUpInside" id="wct-Kc-LiA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hx0-Cu-hXI"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="u1a-qE-C32" firstAttribute="top" secondItem="MjA-8i-dGp" secondAttribute="bottom" constant="27" id="5Yi-Os-MeA"/>
+                            <constraint firstItem="MjA-8i-dGp" firstAttribute="top" secondItem="hx0-Cu-hXI" secondAttribute="top" constant="331" id="AFP-RC-tjB"/>
+                            <constraint firstItem="hx0-Cu-hXI" firstAttribute="trailing" secondItem="u1a-qE-C32" secondAttribute="trailing" constant="20" id="EEZ-Be-CKg"/>
+                            <constraint firstItem="MjA-8i-dGp" firstAttribute="leading" secondItem="hx0-Cu-hXI" secondAttribute="leading" constant="20" id="Mhc-iB-Reb"/>
+                            <constraint firstItem="u1a-qE-C32" firstAttribute="leading" secondItem="hx0-Cu-hXI" secondAttribute="leading" constant="20" id="OeA-Cg-jec"/>
+                            <constraint firstItem="VmS-ux-gN8" firstAttribute="leading" secondItem="hx0-Cu-hXI" secondAttribute="leading" constant="20" id="a4P-Qe-aVT"/>
+                            <constraint firstItem="hx0-Cu-hXI" firstAttribute="trailing" secondItem="MjA-8i-dGp" secondAttribute="trailing" constant="20" id="eZf-rB-apu"/>
+                            <constraint firstItem="VmS-ux-gN8" firstAttribute="top" secondItem="u1a-qE-C32" secondAttribute="bottom" constant="8" symbolic="YES" id="ril-Jv-O2g"/>
+                            <constraint firstItem="VmS-ux-gN8" firstAttribute="top" secondItem="u1a-qE-C32" secondAttribute="bottom" constant="8" symbolic="YES" id="v7q-Lm-6Ct"/>
+                            <constraint firstItem="hx0-Cu-hXI" firstAttribute="trailing" secondItem="VmS-ux-gN8" secondAttribute="trailing" constant="20" id="zkv-nr-g3u"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="secTextField" destination="u1a-qE-C32" id="z9J-s0-Iqh"/>
+                        <outlet property="secondLabel" destination="MjA-8i-dGp" id="Tqh-sh-F4F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1km-lZ-75E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750.72463768115949" y="780.80357142857144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
