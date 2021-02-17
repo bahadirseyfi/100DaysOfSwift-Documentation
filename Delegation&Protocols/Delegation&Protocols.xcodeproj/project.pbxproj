@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		18BECD6625D28E8800BBA0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECD6525D28E8800BBA0C9 /* AppDelegate.swift */; };
 		18BECD6825D28E8800BBA0C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECD6725D28E8800BBA0C9 /* SceneDelegate.swift */; };
-		18BECD6A25D28E8800BBA0C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECD6925D28E8800BBA0C9 /* ViewController.swift */; };
 		18BECD6D25D28E8800BBA0C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BECD6B25D28E8800BBA0C9 /* Main.storyboard */; };
 		18BECD6F25D28E8800BBA0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BECD6E25D28E8800BBA0C9 /* Assets.xcassets */; };
 		18BECD7225D28E8800BBA0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BECD7025D28E8800BBA0C9 /* LaunchScreen.storyboard */; };
 		18BECD7B25D28FAE00BBA0C9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECD7A25D28FAE00BBA0C9 /* FirstViewController.swift */; };
 		18BECD7E25D2971400BBA0C9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECD7D25D2971400BBA0C9 /* SecondViewController.swift */; };
+		18F3066C25D29E53005BBDBC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3066B25D29E53005BBDBC /* LoginViewController.swift */; };
+		18F3066F25D29E65005BBDBC /* ChoosingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3066E25D29E65005BBDBC /* ChoosingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18BECD6225D28E8800BBA0C9 /* Delegation&Protocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delegation&Protocols.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BECD6525D28E8800BBA0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18BECD6725D28E8800BBA0C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18BECD6925D28E8800BBA0C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18BECD6C25D28E8800BBA0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18BECD6E25D28E8800BBA0C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18BECD7125D28E8800BBA0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18BECD7325D28E8800BBA0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BECD7A25D28FAE00BBA0C9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		18BECD7D25D2971400BBA0C9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		18F3066B25D29E53005BBDBC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18F3066E25D29E65005BBDBC /* ChoosingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +62,10 @@
 		18BECD6425D28E8800BBA0C9 /* Delegation&Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				18BECD7A25D28FAE00BBA0C9 /* FirstViewController.swift */,
-				18BECD7D25D2971400BBA0C9 /* SecondViewController.swift */,
+				18F3066A25D29E38005BBDBC /* SecondPractise */,
+				18F3066925D29E29005BBDBC /* FirstPractise */,
 				18BECD6525D28E8800BBA0C9 /* AppDelegate.swift */,
 				18BECD6725D28E8800BBA0C9 /* SceneDelegate.swift */,
-				18BECD6925D28E8800BBA0C9 /* ViewController.swift */,
 				18BECD6B25D28E8800BBA0C9 /* Main.storyboard */,
 				18BECD6E25D28E8800BBA0C9 /* Assets.xcassets */,
 				18BECD7025D28E8800BBA0C9 /* LaunchScreen.storyboard */,
@@ -72,6 +73,24 @@
 				18BECD6325D28E8800BBA0C9 /* Products */,
 			);
 			path = "Delegation&Protocols";
+			sourceTree = "<group>";
+		};
+		18F3066925D29E29005BBDBC /* FirstPractise */ = {
+			isa = PBXGroup;
+			children = (
+				18BECD7A25D28FAE00BBA0C9 /* FirstViewController.swift */,
+				18BECD7D25D2971400BBA0C9 /* SecondViewController.swift */,
+			);
+			path = FirstPractise;
+			sourceTree = "<group>";
+		};
+		18F3066A25D29E38005BBDBC /* SecondPractise */ = {
+			isa = PBXGroup;
+			children = (
+				18F3066B25D29E53005BBDBC /* LoginViewController.swift */,
+				18F3066E25D29E65005BBDBC /* ChoosingViewController.swift */,
+			);
+			path = SecondPractise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BECD6A25D28E8800BBA0C9 /* ViewController.swift in Sources */,
+				18F3066C25D29E53005BBDBC /* LoginViewController.swift in Sources */,
+				18F3066F25D29E65005BBDBC /* ChoosingViewController.swift in Sources */,
 				18BECD6625D28E8800BBA0C9 /* AppDelegate.swift in Sources */,
 				18BECD6825D28E8800BBA0C9 /* SceneDelegate.swift in Sources */,
 				18BECD7E25D2971400BBA0C9 /* SecondViewController.swift in Sources */,
