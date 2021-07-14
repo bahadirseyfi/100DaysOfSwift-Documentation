@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1818ADE32687B4BA005CAFF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818ADE22687B4BA005CAFF1 /* AppDelegate.swift */; };
+		1818ADE52687B4BA005CAFF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818ADE42687B4BA005CAFF1 /* SceneDelegate.swift */; };
+		1818ADE72687B4BA005CAFF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818ADE62687B4BA005CAFF1 /* ViewController.swift */; };
+		1818ADEA2687B4BA005CAFF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1818ADE82687B4BA005CAFF1 /* Main.storyboard */; };
+		1818ADEC2687B4BB005CAFF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1818ADEB2687B4BB005CAFF1 /* Assets.xcassets */; };
+		1818ADEF2687B4BB005CAFF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1818ADED2687B4BB005CAFF1 /* LaunchScreen.storyboard */; };
+		D164291BB27BF608C5F3ED1C /* Pods_SegmentedSJWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0947FB78A4E09279753A9F8 /* Pods_SegmentedSJWork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1818ADDF2687B4BA005CAFF1 /* SegmentedSJWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedSJWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1818ADE22687B4BA005CAFF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1818ADE42687B4BA005CAFF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1818ADE62687B4BA005CAFF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1818ADE92687B4BA005CAFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1818ADEB2687B4BB005CAFF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1818ADEE2687B4BB005CAFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1818ADF02687B4BB005CAFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F73B0C0335694D84C7784F /* Pods-SegmentedSJWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentedSJWork.debug.xcconfig"; path = "Target Support Files/Pods-SegmentedSJWork/Pods-SegmentedSJWork.debug.xcconfig"; sourceTree = "<group>"; };
+		C5C9DABD5DAD3B0A2554C140 /* Pods-SegmentedSJWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentedSJWork.release.xcconfig"; path = "Target Support Files/Pods-SegmentedSJWork/Pods-SegmentedSJWork.release.xcconfig"; sourceTree = "<group>"; };
+		D0947FB78A4E09279753A9F8 /* Pods_SegmentedSJWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentedSJWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1818ADDC2687B4BA005CAFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D164291BB27BF608C5F3ED1C /* Pods_SegmentedSJWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1818ADD62687B4BA005CAFF1 = {
+			isa = PBXGroup;
+			children = (
+				1818ADE12687B4BA005CAFF1 /* SegmentedSJWork */,
+				1818ADE02687B4BA005CAFF1 /* Products */,
+				42203D11C14606D32919AF74 /* Pods */,
+				4F379F7418753C06BBD5884B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1818ADE02687B4BA005CAFF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1818ADDF2687B4BA005CAFF1 /* SegmentedSJWork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1818ADE12687B4BA005CAFF1 /* SegmentedSJWork */ = {
+			isa = PBXGroup;
+			children = (
+				1818ADE22687B4BA005CAFF1 /* AppDelegate.swift */,
+				1818ADE42687B4BA005CAFF1 /* SceneDelegate.swift */,
+				1818ADE62687B4BA005CAFF1 /* ViewController.swift */,
+				1818ADE82687B4BA005CAFF1 /* Main.storyboard */,
+				1818ADEB2687B4BB005CAFF1 /* Assets.xcassets */,
+				1818ADED2687B4BB005CAFF1 /* LaunchScreen.storyboard */,
+				1818ADF02687B4BB005CAFF1 /* Info.plist */,
+			);
+			path = SegmentedSJWork;
+			sourceTree = "<group>";
+		};
+		42203D11C14606D32919AF74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91F73B0C0335694D84C7784F /* Pods-SegmentedSJWork.debug.xcconfig */,
+				C5C9DABD5DAD3B0A2554C140 /* Pods-SegmentedSJWork.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4F379F7418753C06BBD5884B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0947FB78A4E09279753A9F8 /* Pods_SegmentedSJWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1818ADDE2687B4BA005CAFF1 /* SegmentedSJWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1818ADF32687B4BB005CAFF1 /* Build configuration list for PBXNativeTarget "SegmentedSJWork" */;
+			buildPhases = (
+				01F512013996B8F85BD4AB35 /* [CP] Check Pods Manifest.lock */,
+				1818ADDB2687B4BA005CAFF1 /* Sources */,
+				1818ADDC2687B4BA005CAFF1 /* Frameworks */,
+				1818ADDD2687B4BA005CAFF1 /* Resources */,
+				A50B1AFADCAFB214C9E01BEE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegmentedSJWork;
+			productName = SegmentedSJWork;
+			productReference = 1818ADDF2687B4BA005CAFF1 /* SegmentedSJWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1818ADD72687B4BA005CAFF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1818ADDE2687B4BA005CAFF1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1818ADDA2687B4BA005CAFF1 /* Build configuration list for PBXProject "SegmentedSJWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1818ADD62687B4BA005CAFF1;
+			productRefGroup = 1818ADE02687B4BA005CAFF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1818ADDE2687B4BA005CAFF1 /* SegmentedSJWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1818ADDD2687B4BA005CAFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1818ADEF2687B4BB005CAFF1 /* LaunchScreen.storyboard in Resources */,
+				1818ADEC2687B4BB005CAFF1 /* Assets.xcassets in Resources */,
+				1818ADEA2687B4BA005CAFF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01F512013996B8F85BD4AB35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SegmentedSJWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50B1AFADCAFB214C9E01BEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SegmentedSJWork/Pods-SegmentedSJWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SegmentedSJWork/Pods-SegmentedSJWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SegmentedSJWork/Pods-SegmentedSJWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1818ADDB2687B4BA005CAFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1818ADE72687B4BA005CAFF1 /* ViewController.swift in Sources */,
+				1818ADE32687B4BA005CAFF1 /* AppDelegate.swift in Sources */,
+				1818ADE52687B4BA005CAFF1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1818ADE82687B4BA005CAFF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1818ADE92687B4BA005CAFF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1818ADED2687B4BB005CAFF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1818ADEE2687B4BB005CAFF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1818ADF12687B4BB005CAFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1818ADF22687B4BB005CAFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1818ADF42687B4BB005CAFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F73B0C0335694D84C7784F /* Pods-SegmentedSJWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6TXNR8TL5;
+				INFOPLIST_FILE = SegmentedSJWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bahadirseyfi.SegmentedSJWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1818ADF52687B4BB005CAFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C9DABD5DAD3B0A2554C140 /* Pods-SegmentedSJWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6TXNR8TL5;
+				INFOPLIST_FILE = SegmentedSJWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bahadirseyfi.SegmentedSJWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1818ADDA2687B4BA005CAFF1 /* Build configuration list for PBXProject "SegmentedSJWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1818ADF12687B4BB005CAFF1 /* Debug */,
+				1818ADF22687B4BB005CAFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1818ADF32687B4BB005CAFF1 /* Build configuration list for PBXNativeTarget "SegmentedSJWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1818ADF42687B4BB005CAFF1 /* Debug */,
+				1818ADF52687B4BB005CAFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1818ADD72687B4BA005CAFF1 /* Project object */;
+}
